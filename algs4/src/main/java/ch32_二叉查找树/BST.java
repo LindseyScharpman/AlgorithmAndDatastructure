@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-import javax.print.attribute.standard.NumberUp;
-
 import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
@@ -106,7 +104,7 @@ public class BST<Key extends Comparable<Key>, Value> {
 
     public void delete(Key key) {
         if (key == null)
-            throw new NullPointerException("delete");
+            throw new NullPointerException("ch11");
         root = delete(root, key);
     }
 

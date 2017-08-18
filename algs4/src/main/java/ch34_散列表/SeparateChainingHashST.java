@@ -5,7 +5,6 @@ import java.util.Iterator;
 import java.util.List;
 
 import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
 
 
 public class SeparateChainingHashST<Key, Value> 
@@ -68,7 +67,7 @@ public class SeparateChainingHashST<Key, Value>
 	public void delete(Key key)
 	{
 		if (key == null) 
-			throw new NullPointerException("delete");
+			throw new NullPointerException("ch11");
 		
 		int i = hash(key);
 		if ( st[i].contains(key) ) 

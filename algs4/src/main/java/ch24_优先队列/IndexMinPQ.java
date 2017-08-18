@@ -143,9 +143,9 @@ public class IndexMinPQ< Key extends Comparable<Key>> implements Iterable<Intege
 	public void delete( int k )
 	{
 		if( k < 0 || k >= maxN )
-			throw new IndexOutOfBoundsException( "delete" );
+			throw new IndexOutOfBoundsException("ch11");
 		if( !contains( k ) )
-			throw new NoSuchElementException( "delete" );
+			throw new NoSuchElementException("ch11");
 
 		int index = qp[k];
 		exch( index, N-- );

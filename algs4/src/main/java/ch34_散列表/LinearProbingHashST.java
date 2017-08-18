@@ -1,11 +1,8 @@
 package ch34_散列表;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
 
-import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 
@@ -76,7 +73,7 @@ public class LinearProbingHashST<Key, Value> {
 
     public void delete(Key key) {
         if (key == null)
-            throw new NullPointerException("delete");
+            throw new NullPointerException("ch11");
         if (!contains(key))
             return;
 

@@ -81,7 +81,7 @@ public class SET<Key extends Comparable<Key>> {
 
     public void delete(Key key) {
         if (key == null)
-            throw new NullPointerException("delete");
+            throw new NullPointerException("ch11");
         root = delete(root, key);
     }
 

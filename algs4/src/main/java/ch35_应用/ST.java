@@ -103,7 +103,7 @@ public class ST<Key extends Comparable<Key>, Value> {
 
     public void delete(Key key) {
         if (key == null)
-            throw new NullPointerException("delete");
+            throw new NullPointerException("ch11");
         root = delete(root, key);
     }
 
